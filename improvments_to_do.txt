@@ -1,0 +1,2 @@
+1. Refactor DBConnect class. Now it's like good class.
+2. Make something with yad2 captcha?
