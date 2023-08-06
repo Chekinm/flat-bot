@@ -1,7 +1,7 @@
 # DB CONFIG
 DB_CONFIG = {'host': 'localhost',
              'user': 'psyco_user',
-             'password': 'psyco_user_password',
+             'password': 'your_passoword here',
              'dbname': 'hackaton_db',
              }
 
