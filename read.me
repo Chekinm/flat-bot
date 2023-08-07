@@ -1,24 +1,24 @@
-1. To run this project you need to have telegram account.
-2. Create there a simple bot and obtain a token for it. Check docs
-https://core.telegram.org/bots/tutorial#obtain-your-bot-token
-3. Add your token to botconfig1 file and rename it as botconfig.
-4. Run postgre and create a db there. 
-specify db env in botconfig file.
-5. run bot_handler.py.
+# Flat-bot
 
-Unfortunatley, yad2 is very strage company. 
-They don't have API open to the public. 
-People say that you can ask them for access.
-I tried but have no response:(
+This is a Telegram bot designed to fetch available flats for rent around your geographical position. Unfortunately, it is not working properly at the moment because yad2, the platform it relies on, is blocking automatic requests. However, I am actively working on finding a workaround.
 
-Without API token, you allowed to run reuqest to the yad2 only 
-ones from specified IP. 
+## To run:
 
-I add a workaround for demo purposes. Currently, if you get
- bad response from  yad2, app gets you information 
- from file, saved before (json.data).
- 
+1. You need to have Python installed.
+2. Create a virtual environment and run the following command to install the required packages from the supplied requirements.txt file:
+   ```
+   pip install -r requirements.txt
+   ```
+3. You must have a Telegram account to run this bot.
+4. Create a simple bot on Telegram and obtain a token for it. Refer to the documentation at https://core.telegram.org/bots/tutorial#obtain-your-bot-token.
+5. Add your token to the botconfig1 file and then rename it to botconfig.
+6. Run PostgreSQL and create a database. Specify the database environment in the botconfig file.
+7. Run bot_handler.py.
 
+## Why is it not working properly?
 
+Unfortunately, yad2 is a very restrictive company and does not provide an open API for public access. Some people claim that you can request API access from them, but I have already tried doing so and received no response.
 
+Without an API token, you are only allowed to make one request to yad2 per day from a specified IP address.
 
+For demo purposes, I have added a workaround. If you receive a bad response from yad2, the application will fetch information from a previously saved file (json.data).
