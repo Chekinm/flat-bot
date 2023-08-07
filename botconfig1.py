@@ -8,7 +8,7 @@ DB_CONFIG = {'host': 'localhost',
 HELP_RESPONSE = """
 /start - start working with the bot
 /help - this text
-/location - tell the bots where you are 
+/location - tell the bots where you are
 /radius - select the radius of the area around
 you to search flats (in meter, default is 500)
 /minarea - select mix flat area (50 sq.m. by default)
@@ -18,8 +18,8 @@ you to search flats (in meter, default is 500)
 """
 
 DESCRIPTION = """
-This is a bot which helps you to 
-finds a flat to rent. 
+This is a bot which helps you to
+finds a flat to rent.
 It search yad2 relevant flats  around your current postions.
 """
 
