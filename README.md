@@ -1,5 +1,3 @@
-Corrected English:
-
 # Flat-bot
 
 This is a Telegram bot designed to fetch available flats for rent around your geographical position. Unfortunately, it is not working properly at the moment because yad2, the platform it relies on, is blocking automatic requests. However, I am actively working on finding a workaround.
